@@ -9,7 +9,11 @@
 */
 body
 {
-
+   margin: 0;
+   background-image: url(../images/slcc.jpg);
+   background-size: cover;
+   background-repeat:no-repeat;
+   display: compact;
 }
 
 .navbar-brand
