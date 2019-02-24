@@ -9,7 +9,7 @@
 */
 body
 {
-   
+   background: linear-gradient(to left, #333, #333 50%, #eee 50%, #333 75%);
 }
 
 .navbar-brand
@@ -17,6 +17,49 @@ body
 font-family: 'Lobster', cursive;
 }
 
+#avatar-img{
+   border-radius: 50%;
+   padding: 2px;
+   width: 80px;
+   height: 80px;
+}
+
+.part1
+{
+   padding-top: 150px;
+   color:#99ccff;
+}
+
+.aboutme
+{
+   width: 825px;
+}
+
+.activator1
+{
+   width: 825px;
+   height: 825px;
+}
+
+.align-self-start
+{
+   padding-bottom: 20px;
+}
+
+.project, .contact
+{
+   width: 320px;
+}
+
+.activator2, .activator3
+{
+   width: 320px;
+   height: 320px;
+}
+img
+{
+   
+}
 
 #link
 {
@@ -40,7 +83,7 @@ background:  #a3e4d7;
 #footer
 {
 width: 500px;
-margin-top:500px;
+margin-top:50px;
 padding: 0px 28px 0px 20px;
 background:#e6e6e6;
 }
