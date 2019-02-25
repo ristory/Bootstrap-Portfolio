@@ -12,44 +12,47 @@ body
    background: linear-gradient(to left, #333, #333 50%, #eee 50%, #333 75%);
 }
 
+.navbar
+{
+   height: 80px;
+}
+
 #avatar-img{
    border-radius: 50%;
    padding: 2px;
    width: 80px;
    height: 80px;
 }
-
 .part1
 {
-   padding-top: 150px;
-   color:#99ccff;
+   padding-top: 100px;
 }
+
 .part2
 {
-   padding-top: 150px;
-   color:#0099ff;
+   padding-top: 100px;
+   text-transform: uppercase;
+	background: linear-gradient(to left, #eee, #eee 50%, #333 50%, #333 55%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
+
+
 .row
 {
-   padding-bottom: 20px;
-}
-
-
-.align-self-start
-{
-   padding-bottom: 20px;
+   padding-bottom: 10px;
 }
 
 .project, .contact, .aboutme
 {
-  width: 25rem;
+  width: 15rem;
   margin: 0 auto; 
 }
 
 .activator1, .activator2, .activator3, .activator4, .activator5, .activator6, .activator7
 {
-   width: 25rem;
-   height: 320px;
+   width: 15rem;
+   height: 150px;
 }
 
 #link
