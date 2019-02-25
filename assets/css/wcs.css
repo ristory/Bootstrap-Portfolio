@@ -9,14 +9,48 @@
 */
 body
 {
-
+   background: linear-gradient(to left, #333, #333 50%, #eee 50%, #333 75%);
 }
 
-.navbar-brand
+#avatar-img{
+   border-radius: 50%;
+   padding: 2px;
+   width: 80px;
+   height: 80px;
+}
+
+.part1
 {
-font-family: 'Lobster', cursive;
+   padding-top: 150px;
+   color:#99ccff;
+}
+.part2
+{
+   padding-top: 150px;
+   color:#0099ff;
+}
+.row
+{
+   padding-bottom: 20px;
 }
 
+
+.align-self-start
+{
+   padding-bottom: 20px;
+}
+
+.project, .contact, .aboutme
+{
+  width: 25rem;
+  margin: 0 auto; 
+}
+
+.activator1, .activator2, .activator3, .activator4, .activator5, .activator6, .activator7
+{
+   width: 25rem;
+   height: 320px;
+}
 
 #link
 {
@@ -40,7 +74,7 @@ background:  #a3e4d7;
 #footer
 {
 width: 500px;
-margin-top:500px;
+margin-top:50px;
 padding: 0px 28px 0px 20px;
 background:#e6e6e6;
 }
