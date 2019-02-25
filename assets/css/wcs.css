@@ -12,11 +12,6 @@ body
    background: linear-gradient(to left, #333, #333 50%, #eee 50%, #333 75%);
 }
 
-.navbar-brand
-{
-font-family: 'Lobster', cursive;
-}
-
 #avatar-img{
    border-radius: 50%;
    padding: 2px;
@@ -29,36 +24,32 @@ font-family: 'Lobster', cursive;
    padding-top: 150px;
    color:#99ccff;
 }
-
-.aboutme
+.part2
 {
-   width: 825px;
+   padding-top: 150px;
+   color:#0099ff;
+}
+.row
+{
+   padding-bottom: 20px;
 }
 
-.activator1
-{
-   width: 825px;
-   height: 825px;
-}
 
 .align-self-start
 {
    padding-bottom: 20px;
 }
 
-.project, .contact
+.project, .contact, .aboutme
 {
-   width: 320px;
+  width: 25rem;
+  margin: 0 auto; 
 }
 
-.activator2, .activator3
+.activator1, .activator2, .activator3, .activator4, .activator5, .activator6, .activator7
 {
-   width: 320px;
+   width: 25rem;
    height: 320px;
-}
-img
-{
-   
 }
 
 #link
