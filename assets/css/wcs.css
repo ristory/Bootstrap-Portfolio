@@ -78,11 +78,10 @@ a:hover
 
 #footer
 {
-width: 500px;
-margin-top:50px;
-padding: 0px 28px 0px 20px;
-background:#e6e6e6;
+width: 238px;
+margin-top:20px;
 }
+
 
 @media (max-width: 575px) {
    h1
