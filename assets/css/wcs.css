@@ -30,7 +30,7 @@ body
 
 .part2
 {
-   padding-top: 100px;
+   padding-top: 200px;
    text-transform: uppercase;
 	background: linear-gradient(to left, #eee, #eee 50%, #333 50%, #333 55%);
 	-webkit-background-clip: text;
@@ -43,7 +43,14 @@ body
    padding-bottom: 10px;
 }
 
-.project, .contact, .aboutme
+.aboutme
+{
+  width: 15rem;
+  margin: 0 auto; 
+  margin-bottom: 20px;
+}
+
+.project
 {
   width: 15rem;
   margin: 0 auto; 
@@ -53,6 +60,11 @@ body
 {
    width: 15rem;
    height: 150px;
+}
+
+.card-text
+{
+   height:100px;
 }
 
 #link
@@ -71,7 +83,7 @@ color: #e74c3c ;
 
 a:hover 
 {
-background:  #a3e4d7;
+
 }
 
 #footer
