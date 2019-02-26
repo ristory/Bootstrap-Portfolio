@@ -81,7 +81,10 @@ a:hover
 width: 238px;
 margin-top:20px;
 }
-
+.card-image
+{
+   width: 100%;
+}
 
 @media (max-width: 575px) {
    h1
