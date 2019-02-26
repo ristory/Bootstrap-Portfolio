@@ -15,8 +15,6 @@
     padding-top: 100px;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.img-fluid {
+    width:50%;
   }
