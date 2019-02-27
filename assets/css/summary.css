@@ -33,3 +33,8 @@ body, html {
   background-size: cover;
 }
 
+.container-fluid
+{
+  background: linear-gradient(90deg,  white 50%, black 50%);
+
+}
