@@ -1,3 +1,20 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../images/hoang10.JPG");
+  
+    /* Full height */
+    height: 25%; 
+  
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 #avatar-img{
     border-radius: 50%;
     padding: 2px;
