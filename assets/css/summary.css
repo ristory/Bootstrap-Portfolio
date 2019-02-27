@@ -35,6 +35,6 @@ body, html {
 
 .container-fluid
 {
-  background: linear-gradient(90deg,  white 50%, black 50%);
+  background-image: linear-gradient(90deg,  white 50%, black 50%);
 
 }

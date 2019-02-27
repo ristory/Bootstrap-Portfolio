@@ -1,6 +1,6 @@
 body
 {
-   background: linear-gradient(to left, #333, #333 50%, #eee 50%, #333 75%);
+   background-image: linear-gradient(to left, #333, #333 50%, #eee 50%, #333 75%);
 }
 
 .navbar
