@@ -5,6 +5,12 @@
     height: 100px;
  }
 
+img{
+  border-radius: 50%;
+  padding: 2px;
+  width: 80px;
+  height: 80px;
+}
  .navbar
 {
    height: 80px;
@@ -41,13 +47,17 @@ body, html {
 .about
 {
   background-color: #4dd2ff;
-  
 }
 
 .expierence
 {
   background-color: #ffd633;
 
+}
+
+.summary
+{
+  margin-bottom: 20px;
 }
 
 .logo
