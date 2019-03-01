@@ -5,12 +5,7 @@
     height: 100px;
  }
 
-img{
-  border-radius: 50%;
-  padding: 2px;
-  width: 80px;
-  height: 80px;
-}
+
  .navbar
 {
    height: 80px;
@@ -44,9 +39,10 @@ body, html {
   background-image: linear-gradient(to right,  white 50%, #80b3ff 50%);
 }
 
-.about
+.card-title
 {
   background-color: #4dd2ff;
+  margin-bottom: 0;
 }
 
 .expierence
@@ -62,6 +58,15 @@ body, html {
 
 .logo
 {
+  border-radius: 50%;
+  padding: 2px;
   width: 50px;
   height: 50px;
+}
+
+iframe
+{
+  width: 180px;
+  height:230px;
+
 }
