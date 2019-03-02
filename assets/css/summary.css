@@ -23,7 +23,14 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("../images/hoang6.JPG");
+  background: 
+  /* top, transparent red, faked with gradient */ 
+  linear-gradient(
+    rgba(255, 255, 255, 0.45), 
+    rgba(224, 214, 214, 0.45)
+  ),
+  /* bottom, image */
+  url(../images/hoang6.JPG);
 
   /* Full height */
   height: 50%; 
@@ -36,7 +43,7 @@ body, html {
 
 .container-fluid
 {
-  background-image: linear-gradient(to right,  white 50%, #80b3ff 50%);
+  background-image: linear-gradient(to right,  #595959 50%, #bfbfbf 50%);
 }
 
 .card-title
@@ -68,5 +75,17 @@ iframe
 {
   width: 180px;
   height:230px;
+}
 
+.avatar1
+{
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(224, 214, 214, 0.45)
+    ),
+    /* bottom, image */
+    url(../images/hoang10.JPG);
+  background-size: cover;
 }
