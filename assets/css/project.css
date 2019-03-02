@@ -1,3 +1,7 @@
+.part1{
+    background-image: linear-gradient(to right,  #ffb3cc 50%, white 50%);
+}
+
 @media (max-width: 767px) {
     .column-1,
     .column-2 {
