@@ -1,24 +1,22 @@
-.part1{
+.part1
+{
     background-image: linear-gradient(to right,  #ffb3cc 50%, white 50%);
 }
 
-@media (max-width: 767px) {
-    .column-1,
-    .column-2 {
-        width: 100%;
-    }
+.part2
+{
+    background-image: linear-gradient(to right,  white 50%, #b3d9ff 50%);
 }
-@media (min-width: 768px) and (max-width: 991px) {
-    .column-1 {
-        width: 50%;
-    }
-    .column-2 {
-        width: 100%;
-    }
+
+.logo
+{
+    width:180px;
+    height:180px;
+    
 }
-@media (min-width: 992px) {
-    .column-2,
-    .column-1 {
-        width: 33%;
-    }
+
+.col-sm-3
+{
+    padding-top: 30px;
 }
+
