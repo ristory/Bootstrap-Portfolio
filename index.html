@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <!-- I just want to say Hi to you. Have a wonderful day.  
+<!-- I just want to say Hi to you. Have a wonderful day.  
               _____$$$$_________$$$$
               ___$$$$$$$$_____$$$$$$$$
               _$$$$$$$$$$$$_$$$$$$$$$$$$
@@ -25,7 +25,8 @@
   <meta name="author" content="Hoang Cao" />
 
   <!-- Bootstrap CDN Library -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Google font -->
   <link href="https://fonts.googleapis.com/css?family=Lobster%7CIndie+Flower%7CYanone+Kaff" rel="stylesheet">
   <!-- Ionic Framework for button icon -->
@@ -37,8 +38,20 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="mailto:hoangcao@mail.weber.edu">
+        <img alt="email logo" src="./assets/images/EMAIL.png" class="img-fluid logo">hoangcao@mail.weber.edu</a>
+      <a href="https://github.com/ristory" target="_blank">
+        <img alt="github logo" src="./assets/images/GITHUB1.png" class="img-fluid logo">hoangcao@mail.weber.edu</a>
+      <a href="https://www.linkedin.com/in/hoangcao-136/" target="_blank">
+        <img alt="linkedin logo" src="./assets/images/LINKEDIN.png" class="img-fluid logo">https://www.linkedin.com/in/hoangcao-136/</a>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <!-- Our brand / logo -->
     <a class="navbar-brand" id="PageName" href="index.html">
       <img src="./assets/images/hoang7.JPG" id="avatar-img" alt="avatar">Hoang Cao
@@ -63,7 +76,7 @@
           <a class="nav-link" href="Projects.html">Projects</a>
         </li>
 
-        <li class="nav-item active  ">
+        <li class="nav-item active">
           <a class="nav-link" href="Contact.html">Contact</a>
         </li>
 
@@ -79,23 +92,26 @@
       <div class="col-sm-4">
         <div class="card medium aboutme text-center">
           <div class="card-image mx-auto">
-              <a  id="profile" href="Summary.html">
-            <img src="./assets/images/hoang3.JPG" alt="About Me Pciture" class="img-fluid activator2">
-            </a>
+            <a id="profile" href="Summary.html">
+              <img src="./assets/images/hoang3.JPG" alt="About Me Pciture" class="img-fluid activator2">
           </div>
-            <h3 class="card-title">About</h3>
-            <p class="card-text">I'm Web Developer who love designing and developing your website to make it become unique and functional</p>
+          <h3 class="card-title">About</h3>
+          </a>
+          <p class="card-text">I'm Web Developer who love designing and developing your website to make it become unique
+            and functional</p>
         </div>
 
         <div class="card medium project text-center">
           <div class="card-image mx-auto">
-            <img src="./assets/images/cookbook.JPG" alt="Project Picture" class="img-fluid activator6">
+            <a id="profile" href="Projects.html" href="Summary.html">
+              <img src="./assets/images/cookbook.JPG" alt="Project Picture" class="img-fluid activator6">
           </div>
-            <h3 class="card-title">Project</h3>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <h3 class="card-title">Project</h3>
+          </a>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
-    
+
 
       <div class="col-sm-4 part2 text-center align-self-center">
         <h1>Simple Life</h1>
@@ -106,20 +122,21 @@
 
       <div class="col-sm-4">
         <div class="card medium aboutme text-center">
-          <div class="card-image mx-auto">
-            <img src="./assets/images/cookbook.JPG" alt="Contact Picture" class="img-fluid activator2">
-          </div> 
+          <a id="profile" onclick="openNav()" href="#">
+            <div class="card-image mx-auto">
+              <img src="./assets/images/cookbook.JPG" alt="Contact Picture" class="img-fluid activator2">
+            </div>
             <h3 class="card-title">Contact</h3>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      
+          </a>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
 
         <div class="card medium project text-center">
           <div class="card-image mx-auto">
             <img src="./assets/images/hoang3.JPG" alt="Resume Picture" class="img-fluid activator6">
           </div>
-            <h3 class="card-title">Resume</h3>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <h3 class="card-title">Resume</h3>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
     </div>
@@ -129,11 +146,20 @@
     <div id="footer" class="col-sm-12 text-center bg-transparent">
       <p>© 2019 Hoang Cao. All rights reserved.</p>
     </div>
-</div>
-   <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <script type="text/javascript" src="./assets/js/wcs.js"></script>
 </body>
+
 </html>
