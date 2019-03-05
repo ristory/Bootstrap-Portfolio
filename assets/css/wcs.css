@@ -55,6 +55,7 @@ body
 .card-text
 {
    height:100px;
+   font-family: 'Overpass', sans-serif;
 }
 
 #link
@@ -65,15 +66,15 @@ font-family: 'Indie Flower', cursive;
 margin: 25px 2px 25px 25px; 
 margin-top: 500px;
 }
-		
+
+.profile:hover, .navigation:hover
+{
+   opacity: 0.5;
+}
+
 a:active 
 {
 color: #e74c3c ;
-}
-
-a:hover 
-{
-
 }
 
 #footer
@@ -142,6 +143,7 @@ margin-top:20px;
  {
    font-family: 'Signika', sans-serif;
  }
+
  
  @media screen and (max-height: 450px) {
    .overlay a {font-size: 20px}

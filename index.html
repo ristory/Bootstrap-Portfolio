@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Google font -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Signika" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Overpass|Signika" rel="stylesheet">
   <!-- Ionic Framework for button icon -->
   <link href="https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css" rel="stylesheet">
   <!-- My style-->
@@ -47,7 +47,8 @@
       <a href="https://github.com/ristory" target="_blank">
         <img alt="github logo" src="./assets/images/GITHUB1.png" class="img-fluid logo">hoangcao@mail.weber.edu</a>
       <a href="https://www.linkedin.com/in/hoangcao-136/" target="_blank">
-        <img alt="linkedin logo" src="./assets/images/LINKEDIN.png" class="img-fluid logo">https://www.linkedin.com/in/hoangcao-136/</a>
+        <img alt="linkedin logo" src="./assets/images/LINKEDIN.png"
+          class="img-fluid logo">https://www.linkedin.com/in/hoangcao-136/</a>
     </div>
   </div>
 
@@ -68,20 +69,20 @@
 
         <!-- The links of our navbar -->
         <li class="nav-item active PageName">
-          <a class="nav-link" href="Summary.html">About</a>
+          <a class="nav-link navigation" href="Summary.html">About</a>
         </li>
 
 
         <li class="nav-item active PageName">
-          <a class="nav-link" href="Projects.html">Projects</a>
+          <a class="nav-link navigation" href="Projects.html">Projects</a>
         </li>
 
         <li class="nav-item active PageName">
-          <a class="nav-link" href="Contact.html">Contact</a>
+          <a class="nav-link navigation" href="#">Contact</a>
         </li>
 
         <li class="nav-item active PageName">
-          <a class="nav-link" href="#">Resume</a>
+          <a class="nav-link navigation" href="#">Resume</a>
         </li>
 
       </ul>
@@ -92,7 +93,7 @@
       <div class="col-sm-4">
         <div class="card medium aboutme text-center">
           <div class="card-image mx-auto">
-            <a id="profile" href="Summary.html">
+            <a class="profile" href="Summary.html">
               <img src="./assets/images/hoang3.JPG" alt="About Me Pciture" class="img-fluid activator2">
           </div>
           <h3 class="card-title">About</h3>
@@ -103,7 +104,7 @@
 
         <div class="card medium project text-center">
           <div class="card-image mx-auto">
-            <a id="profile" href="Projects.html" href="Summary.html">
+            <a class="profile" href="Projects.html" href="Summary.html">
               <img src="./assets/images/cookbook.JPG" alt="Project Picture" class="img-fluid activator2">
           </div>
           <h3 class="card-title">Project</h3>
@@ -122,21 +123,23 @@
 
       <div class="col-sm-4">
         <div class="card medium aboutme text-center">
-          <a id="profile" onclick="openNav()" href="#">
-            <div class="card-image mx-auto">
-              <img src="./assets/images/cookbook.JPG" alt="Contact Picture" class="img-fluid activator1">
-            </div>
-            <h3 class="card-title">Contact</h3>
+          <div class="card-image mx-auto">
+            <a class="profile" onclick="openNav()" href="#">
+              <img src="./assets/images/snow1.jpg" alt="Contact Picture" class="img-fluid activator1">
+          </div>
+          <h3 class="card-title">Contact</h3>
           </a>
-          <p class="card-text">I'm currently available for freelance work.</p>
+          <p class="card-text">I'm currently available for new opputunity.</p>
         </div>
 
         <div class="card medium project text-center">
           <div class="card-image mx-auto">
-            <img src="./assets/images/hoang3.JPG" alt="Resume Picture" class="img-fluid activator2">
+            <a class="profile" href="Projects.html" href="Summary.html">
+              <img src="./assets/images/RESUME.PNG" alt="Resume Picture" class="img-fluid activator2">
           </div>
           <h3 class="card-title">Resume</h3>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </a>
+          <p class="card-text">Have question? contact me for more info</p>
         </div>
       </div>
     </div>
