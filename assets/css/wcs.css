@@ -46,10 +46,10 @@ body
   margin: 0 auto; 
 }
 
-.activator1, .activator2, .activator3, .activator4, .activator5, .activator6, .activator7
+.activator1, .activator2
 {
-   width: 15rem;
-   height: 150px;
+   width: 400px;
+   height: 200px;
 }
 
 .card-text
@@ -131,6 +131,16 @@ margin-top:20px;
  {
    width: 100px;
    height: 100px;
+ }
+ 
+ h1
+ {
+   font-family: 'Merriweather', serif; 
+ }
+
+ .PageName
+ {
+   font-family: 'Signika', sans-serif;
  }
  
  @media screen and (max-height: 450px) {
