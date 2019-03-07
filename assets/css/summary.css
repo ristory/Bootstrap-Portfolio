@@ -51,7 +51,7 @@ body, html {
 
 .title
 {
-  color:#4dd2ff;
+  color:#000000;
   font-family: 'Overpass', sans-serif;
   padding-top: 100px;
 }
@@ -117,4 +117,20 @@ iframe
   background-size: cover;
 }
 
+.nav-link
+{
+  font-size: 30px;
+}
+
+.zoom {
+ 
+  transition: transform .2s;
+
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 
