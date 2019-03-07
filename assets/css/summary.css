@@ -81,13 +81,9 @@ body, html {
 
 .summary
 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-#firsttab
-{
-  height:200px;
-}
 
 .logo
 {
@@ -101,6 +97,11 @@ iframe
 {
   width: 180px;
   height:230px;
+}
+
+.col-sm-10
+{
+  padding-top: 10px;
 }
 
 .avatar1
