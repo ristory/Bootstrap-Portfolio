@@ -41,12 +41,19 @@ body, html {
   url(../images/hoang6.JPG);
 
   /* Full height */
-  height: 50%; 
+  height: 300px; 
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.title
+{
+  color:#4dd2ff;
+  font-family: 'Overpass', sans-serif;
+  padding-top: 100px;
 }
 
 .container-fluid
@@ -61,6 +68,11 @@ body, html {
   margin-bottom: 0;
 }
 
+.card-content
+{
+  font-family: 'Signika', sans-serif;
+}
+
 .expierence
 {
   background-color: #ffd633;
@@ -70,6 +82,11 @@ body, html {
 .summary
 {
   margin-bottom: 20px;
+}
+
+#firsttab
+{
+  height:200px;
 }
 
 .logo
