@@ -87,6 +87,11 @@ margin-top:20px;
    width: 100%;
 }
 
+.closebtn
+{
+   margin-top: 20px;
+}
+
 .overlay {
    height: 100%;
    width: 0;
