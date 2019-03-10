@@ -52,20 +52,20 @@ body, html {
 
 .title
 {
-  color:#000000;
+  color: #C2F5C2;
   font-family: 'Overpass', sans-serif;
   padding-top: 100px;
 }
 
 .container-fluid
 {
-  background-image: linear-gradient(to right,  #595959 50%, #bfbfbf 50%);
+  background-image: linear-gradient(to right,  white 50%, #C2C2F5 50%);
   display:none;
 }
 
 .card-title
 {
-  background-color: #4dd2ff;
+  background-color: #C2F5C2;
   margin-bottom: 0;
 }
 
