@@ -19,15 +19,6 @@ body
    padding-top: 100px;
 }
 
-.part2
-{
-   text-transform: uppercase;
-	background: linear-gradient(to left, #eee, #eee 50%, #333 50%, #333 55%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-
 .row
 {
    padding-bottom: 10px;
@@ -167,6 +158,10 @@ color: #55BBFD;
    font-family: 'Signika', sans-serif;
  }
 
+ .grad2
+{
+   opacity: 0;
+}
  
  @media screen and (max-height: 450px) {
    .overlay a {font-size: 20px}
@@ -177,13 +172,6 @@ color: #55BBFD;
    }
  }
 
- @media screen and (max-width: 900px) {
-   h1
-   {
-      font-size: 20px; 
-   }
-}
-
 
 @media  screen and (max-width: 992px) {
    #avatar-img
@@ -193,10 +181,20 @@ color: #55BBFD;
    }
 }
 
-@media  screen and (max-width: 576px) {
-   h1
+@media  screen and (max-width: 700px) {
+   tspan
    {
-      font-size: 15px; 
+      font-size: 15px;
+   }
+
+   .grad1
+   {
+      opacity: 0;
+   }
+
+   .grad2
+   {
+      opacity: 1;
    }
 }
 
