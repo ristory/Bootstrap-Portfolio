@@ -33,27 +33,43 @@ body
    padding-bottom: 10px;
 }
 
-.aboutme
+.section
 {
-  width: 15rem;
+  width: 400px;
   margin: 0 auto; 
   margin-bottom: 20px;
 }
 
+.aboutme
+{
+   width: 400px;
+  height: 300px;
+  background: url("../images/hoang3.JPG") no-repeat top;
+  background-size: cover
+}
+
 .project
 {
-  width: 15rem;
-  margin: 0 auto; 
+   width: 400px;
+  height: 300px;
+  background: url("../images/cookbook.JPG") no-repeat left;
+  background-size: cover
 }
 
-.activator1, .activator2
+.contact
 {
-   height: 200px;
+   width: 400px;
+  height: 300px;
+  background: url("../images/snow1.jpg") no-repeat left;
+  background-size: cover
 }
 
-.card-image
+.resume
 {
-   max-width:100%;
+   width: 400px;
+  height: 300px;
+  background: url("../images/RESUME.PNG") no-repeat top;
+  background-size: cover
 }
 
 .card-text
@@ -85,6 +101,7 @@ color: #e74c3c ;
 {
 width: 238px;
 margin-top:20px;
+color: #55BBFD;
 }
 
 
@@ -160,20 +177,37 @@ margin-top:20px;
    }
  }
 
- @media (max-width: 575px) {
+ @media screen and (max-width: 900px) {
    h1
    {
-      font-size: 16px; 
+      font-size: 20px; 
    }
 }
-@media (max-width: 991px) {
+
+
+@media  screen and (max-width: 992px) {
    #avatar-img
    {
-      width: 65px;
-      height: 65px;
+      width: 70px;
+      height: 70px;
    }
-   
 }
+
+@media  screen and (max-width: 576px) {
+   h1
+   {
+      font-size: 15px; 
+   }
+}
+
+@media screen and (max-width: 1198px) {
+   .section,.aboutme, .project, .contact, .resume
+   {
+      width: 250px;
+   }
+}
+
+   
 
 
 
