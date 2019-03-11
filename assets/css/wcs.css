@@ -48,8 +48,12 @@ body
 
 .activator1, .activator2
 {
-   width: 400px;
    height: 200px;
+}
+
+.card-image
+{
+   max-width:100%;
 }
 
 .card-text
@@ -82,10 +86,7 @@ color: #e74c3c ;
 width: 238px;
 margin-top:20px;
 }
-.card-image
-{
-   width: 100%;
-}
+
 
 .closebtn
 {

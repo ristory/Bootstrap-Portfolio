@@ -35,8 +35,8 @@ body, html {
   background: 
   /* top, transparent red, faked with gradient */ 
   linear-gradient(
-    rgba(255, 255, 255, 0.45), 
-    rgba(224, 214, 214, 0.45)
+    rgba(70, 69, 69, 0.45), 
+    rgba(75, 74, 74, 0.45)
   ),
   /* bottom, image */
   url(../images/hoang6.JPG);
@@ -52,20 +52,20 @@ body, html {
 
 .title
 {
-  color: #C2F5C2;
+  color: white;
   font-family: 'Overpass', sans-serif;
   padding-top: 100px;
 }
 
 .container-fluid
 {
-  background-image: linear-gradient(to right,  white 50%, #C2C2F5 50%);
+  background-image: linear-gradient(to right,  white 50%, #55BBFD 50%);
   display:none;
 }
 
 .card-title
 {
-  background-color: #C2F5C2;
+  background-color: #55BBFD;
   margin-bottom: 0;
 }
 
@@ -76,7 +76,7 @@ body, html {
 
 .expierence
 {
-  background-color: #ffd633;
+  background-color: #55BBFD;
 
 }
 
@@ -120,7 +120,14 @@ iframe
 
 .nav-link
 {
+  
   font-size: 25px;
+  
+}
+
+.navigation:hover 
+{
+  color: red;
 }
 
 .zoom {
