@@ -148,9 +148,10 @@ color: #55BBFD;
    height: 100px;
  }
  
- h1
+ tspan
  {
    font-family: 'Merriweather', serif; 
+   font-size: 20px;
  }
 
  .PageName
