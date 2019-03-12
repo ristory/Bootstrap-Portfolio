@@ -69,14 +69,7 @@ body
    font-family: 'Overpass', sans-serif;
 }
 
-#link
-{
-font-size:2em;
-text-align:center;
-font-family: 'Indie Flower', cursive;	
-margin: 25px 2px 25px 25px; 
-margin-top: 500px;
-}
+
 
 .profile:hover, .navigation:hover
 {
@@ -151,7 +144,6 @@ color: #55BBFD;
  tspan
  {
    font-family: 'Merriweather', serif; 
-   font-size: 20px;
  }
 
  .PageName
@@ -163,7 +155,8 @@ color: #55BBFD;
 {
    opacity: 0;
 }
- 
+
+
  @media screen and (max-height: 450px) {
    .overlay a {font-size: 20px}
    .overlay .closebtn {
